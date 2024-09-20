@@ -40,11 +40,74 @@ let nota = parseFloat(prompt("agregue la nota del alumno"));
 document.write(nota >= 5 ? "aprobado" : "reprobado");
 
 //11 Programa que pida un número del 1 al 12 y muestre el nombre del mes correspondiente:
-let mes = parseInt(prompt("ingresar un número del 1 al 12"));
-let meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
-document.write(meses[mes - 1]);
+var mes = parseInt(prompt("ingresar un número del 1 al 12"));
+switch (mes) {
+    case 1:
+        alert("Enero");
+        break;
+    case 2:
+        alert("Febrero");
+        break;
+    case 3:
+        alert("Marzo");
+        break;
+    case 4:
+        alert("Abril");
+        break;
+    case 5:
+        alert("Mayo");
+        break;
+    case 6:
+        alert("Junio");
+        break;
+    case 7:
+        alert("Julio");
+        break;
+    case 8:
+        alert("Agosto");
+        break;
+    case 9:
+        alert("Septiembre");
+        break;
+    case 10:
+        alert("Octubre");
+        break;
+    case 11:
+        alert("Noviembre");
+        break;
+    case 12:
+        alert("Diciembre");
+        break;
+    default:
+        alert("Número inválido. Debes introducir un número del 1 al 12.");
+        break;
+}
 
 //12 Programa que pida un número del 1 al 7 y muestre el día de la semana correspondiente:
 var dia = parseInt(prompt("ingresar un número del 1 al 7"));
-var dias = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
-document.write(dias[dia - 1]);
+switch (dia) {
+    case 1:
+        alert("Domingo");
+        break;
+    case 2:
+        alert("Lunes");
+        break;
+    case 3:
+        alert("Martes");
+        break;
+    case 4:
+        alert("Miércoles");
+        break;
+    case 5:
+        alert("Jueves");
+        break;
+    case 6:
+        alert("Viernes");
+        break;
+    case 7:
+        alert("Sábado");
+        break;
+    default:
+        alert("Número inválido. Debes introducir un número del 1 al 7.");
+        break;
+}
