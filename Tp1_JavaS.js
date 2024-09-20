@@ -40,72 +40,72 @@ let nota = parseFloat(prompt("agregue la nota del alumno"));
 document.write(nota >= 5 ? "aprobado" : "reprobado");
 
 //11 Programa que pida un número del 1 al 12 y muestre el nombre del mes correspondiente:
-var mes = parseInt(prompt("ingresar un número del 1 al 12"));
+var mes = parseInt(prompt("ingresar un número del 1 al 12 para mostrar un mes"));
 switch (mes) {
     case 1:
-        alert("Enero");
+        alert("su numero corresponde al mes de Enero");
         break;
     case 2:
-        alert("Febrero");
+        alert("su numero corresponde al mes de Febrero");
         break;
     case 3:
-        alert("Marzo");
+        alert("su numero corresponde al mes de Marzo");
         break;
     case 4:
-        alert("Abril");
+        alert("su numero corresponde al mes de Abril");
         break;
     case 5:
-        alert("Mayo");
+        alert("su numero corresponde al mes de Mayo");
         break;
     case 6:
-        alert("Junio");
+        alert("su numero corresponde al mes de Junio");
         break;
     case 7:
-        alert("Julio");
+        alert("su numero corresponde al mes de Julio");
         break;
     case 8:
-        alert("Agosto");
+        alert("su numero corresponde al mes de Agosto");
         break;
     case 9:
-        alert("Septiembre");
+        alert("su numero corresponde al mes de Septiembre");
         break;
     case 10:
-        alert("Octubre");
+        alert("su numero corresponde al mes de Octubre");
         break;
     case 11:
-        alert("Noviembre");
+        alert("su numero corresponde al mes de Noviembre");
         break;
     case 12:
-        alert("Diciembre");
+        alert("su numero corresponde al mes de Diciembre");
         break;
     default:
-        alert("Número inválido. Debes introducir un número del 1 al 12.");
+        alert("Número inválido, solo debes introducir un número del 1 al 12.");
         break;
 }
 
 //12 Programa que pida un número del 1 al 7 y muestre el día de la semana correspondiente:
-var dia = parseInt(prompt("ingresar un número del 1 al 7"));
+var dia = parseInt(prompt("ingresar un número del 1 al 7 para mostrar un dia de la semana"));
 switch (dia) {
     case 1:
-        alert("Domingo");
+        alert("su numero corresponde al dia Domingo");
         break;
     case 2:
-        alert("Lunes");
+        alert("su numero corresponde al dia Lunes");
         break;
     case 3:
-        alert("Martes");
+        alert("su numero corresponde al dia Martes");
         break;
     case 4:
-        alert("Miércoles");
+        alert("su numero corresponde al dia Miércoles");
         break;
     case 5:
-        alert("Jueves");
+        alert("su numero corresponde al dia Jueves");
         break;
     case 6:
-        alert("Viernes");
+        alert("su numero corresponde al dia Viernes");
         break;
     case 7:
-        alert("Sábado");
+        alert("su numero corresponde al dia Sábado");
         break;
     default:
         alert("Número inválido. Debes introducir un número del 1 al 7.");
